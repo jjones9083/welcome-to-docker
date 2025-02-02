@@ -1,0 +1,9 @@
+# syntak=docker/dockerfile:1
+
+# start your image with a node
+from node:18-alpine
+
+# create an application directory
+run mkdir -p /app
+
+#set the /app directory as the
